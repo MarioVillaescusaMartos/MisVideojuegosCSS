@@ -1,0 +1,73 @@
+header
+{
+	background-color: white;
+	color:black;
+	text-align: center;
+	margin-top: -25px;
+	padding-right: 80px;
+}
+
+header img
+{
+	float: left;
+	width: 75px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+body
+{
+	background-color: black;
+	color: white;
+}
+
+section img
+{
+	min-width: 40%;
+	max-width: 75%;
+	height: auto;
+}
+
+
+.caja
+{
+	float: left;
+	margin-left: 27px;
+	min-width: 30px;
+	max-width: 30%;
+	min-height: 500px;
+	max-height: 100%;
+	border: 3px solid white;
+	border-radius: 15px;
+}
+
+.gt
+{
+	shape-outside: url(image/GTSport.png);
+	shape-image-threshold: 0.5;
+	shape-margin: 20px;
+	float: left;
+}
+
+.ww
+{
+	shape-outside: url(image/CODWWII.png);
+	shape-image-threshold: 0.5;
+	shape-margin: 20px;
+	float: left;
+}
+
+.rd
+{
+	shape-outside: url(image/RedDead2.png);
+	shape-image-threshold: 0.5;
+	shape-margin: 20px;
+	float: left;
+}
+
+footer
+{
+	float: left;
+	margin-top: 25px;
+	clear: both;
+}
